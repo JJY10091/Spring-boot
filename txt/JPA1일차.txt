@@ -1,0 +1,10 @@
+JPA 1일차
+스프링부트 도구 설치
+Spring Boot Devtools > 서버 재시작없이 변경사항있으면 서버 재가동
+Live Reload > 크롬 확장프로그램 > 변경사항을 새로고침없이 보여줌
+롬복 > Getter Setter > 다운 받고 이클립스 있는 폴더로 이동> 기본 알집이면 실행안되네
+	- 걍cmd 열고 java jar로 실행하자
+
+엔티티 - 데이터베이스처리 (dao,mapper .. 등)
+sql을 repository에 담네
+Optional > **있다면 boolean리턴

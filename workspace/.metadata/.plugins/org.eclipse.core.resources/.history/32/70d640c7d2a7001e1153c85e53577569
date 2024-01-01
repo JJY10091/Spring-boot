@@ -1,0 +1,14 @@
+package com.mysite.sbb.question;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class QuestionController {
+
+	@GetMapping("/question/list")
+	@ResponseBody
+	public String list() {
+		return "qustion list";
+	}
+	
+}

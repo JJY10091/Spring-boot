@@ -1,0 +1,13 @@
+package com.mysite.sbb;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MainController {
+
+	@GetMapping("/sbb")
+	public void index() {
+		return "index.html"
+	}
+	
+}

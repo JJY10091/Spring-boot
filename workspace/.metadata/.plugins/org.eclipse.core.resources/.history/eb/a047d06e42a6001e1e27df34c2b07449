@@ -1,0 +1,7 @@
+package com.mysite.sbb;
+
+@Getter
+@Setter
+public class Question {
+
+}
